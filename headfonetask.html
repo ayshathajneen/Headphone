@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>HeadPhone Task</title>
+    <link rel="stylesheet" href="./headfonetask.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color:aliceblue;">
+
+    <!-- nav -->
+    <nav class="navbar">
+        <div class="container-fluid" style="background-color: aliceblue;">
+            <button class="navbar-toggler" style="margin-left: 95%; border: none;" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Watch Video</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blocks
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: rgb(255, 229, 81); border: none;">
+                            <li><a class="dropdown-item" href="#">Menu pages</a></li>
+                            <li><a class="dropdown-item" href="#">Header</a></li>
+                            <li><a class="dropdown-item" href="#">Images & videos</a></li>
+                            <li><a class="dropdown-item" href="#">Shops</a></li>
+                            <li><a class="dropdown-item" href="#">Features</a></li>
+                            <li><a class="dropdown-item" href="#">Info</a></li>
+                            <li><a class="dropdown-item" href="#">TERMS & TESTIMONIALS</a></li>
+                            <li><a class="dropdown-item" href="#">FORMS & MAPS</a></li>
+                            <li><a class="dropdown-item" href="#">PRICING TABLES</a></li>
+                            <li><a class="dropdown-item" href="#">Tables</a></li>
+                            <li><a class="dropdown-item" href="#">Social</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Demo page
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: rgb(255, 229, 81); border: none;">
+                            <li><a class="dropdown-item" href="#">Headphone Shop</a></li>
+                            <li><a class="dropdown-item" href="#">Show Shop</a></li>
+                            <li><a class="dropdown-item" href="#">Cafe</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <nav class="navbar navbar-light p-3" style="background-color:darkgreen;">
+        <div class="container-fluid" style="background-color:darkgreen;">
+            <a class="navbar-brand text-light" href="#"></a>
+            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark" style="background-color: darkgreen;">
+                <div class="p-4 mt-5" style="background-color:darkgreen;">
+<center>
+                        <a style="text-decoration: none; font-size: 20px; color: aliceblue;" href="">Home</a><br>
+                        <a style="text-decoration: none; font-size: 20px; color: aliceblue;" href="">Watch video</a><br>
+                        <br>
+
+
+                        <div class="home-sci">
+                            <a style="font-size: 25px;" href="https://www.facebook.com"><i class="fa-brands fa-facebook" style="color:white;"></i></a>
+                            <a style="font-size: 25px;"   href="https://twitter.com/?lang=en-in"><i class="fa-brands fa-twitter" style="color:white;"></i></a>
+                            <a style="font-size: 25px;"   href="https://in.linkedin.com/?utm_source=edge_ntp&utm_medium=top&utm_campaign=in"><i
+                                    class="fa-brands fa-linkedin" style="color:white;"></i></a>
+                        </div><br>
+
+
+                        <button type="button" class="btn btn-lg rounded mb-0" style="background-color: azure;font-size: 15px;">Shopping now</button>
+
+                
+                        
+    
+</center>                    
+                </div>
+              </div>
+              <nav class="navbar navbar">
+                <div class="container-fluid">
+                  <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </nav>
+        </div>
+    </nav> -->
+
+
+    <!-- home -->
+    <div class="card bg-dark text-white" style="border: none;">
+        <img src="./videos/headphones-tree-leaf.jpg" height="800px" class="card-img" alt="Stony Beach" />
+        <div class="card-img-overlay mt-10 m-5 p-5">
+            <p class="card-text font-monospace"
+                style="font-size: 20px; color: black; font-family: 'Anton', sans-serif;">
+                THINKING OF BUYING A HEADPHONE ?
+            </p>
+
+            <h5 class="card-title "
+                style="font-size:60px; font-weight: 500;color: black; font-family: 'Anton', sans-serif;">WELCOME TO OUR
+                <br> HEADPHONE SHOP
+            </h5><br>
+            <button type="button" class="btn btn-lg rounded" style="background-color: azure;font-size: 15px;">Shopping
+                now</button>
+        </div>
+    </div>
+
+
+    <div class="head">
+        <h5 style="font-size: 50px;" class="m-5">Find a quality and right headphones is not easy</h5>
+        <p class="m-5" style="font-size: 20px;"><b>Lorem ipsum, dolor</b> sit amet consectetur adipisicing elit.
+            Perferendis debitis iure, provident cumque ea adipisci nobis sapiente at amet odio doloribus exercitationem
+            consequuntur nulla earum, a quisquam sit ullam unde.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat quisquam saepe ea magnam velit corporis
+            quidem facere porro animi sint consectetur assumenda et sit, veniam nostrum voluptate recusandae quae quas.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa asperiores animi ad laudantium mollitia
+            esse, odit nisi aliquam minus repudiandae consequuntur deleniti amet nam adipisci sit aliquid facilis
+            dignissimos. Odit! <a href="">Learn More..</a>
+
+        </p>
+
+    </div>
+
+
+    <center>
+        <h1 style="background-color:rgb(255, 229, 81); color: white;height:100px; text-align: center;" class="p-3">We
+            will help you to
+            choose the best headphone.</h1>
+    </center>
+
+    <section id="collections">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="text-center m-5">
+                        <video autoplay loop muted style="width: 50%;">
+                            <source src="./videos/alpha_-_98026 (540p).mp4">
+                        </video>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>BoAt Rockerz 550 Sunburn Edition</h5>
+                        <p>Minimal collections available , Shop at the earliest.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center m-5">
+                        <video autoplay loop muted style="width: 50%;">
+                            <source src="./videos/pexels-cottonbro-6686511 (2160p).mp4">
+                        </video>
+
+
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>JBL Tune 760NC Over-the-ear headphones</h5>
+                        <p>New collections</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="text-center m-5">
+                        <video autoplay loop muted style="width: 50%;">
+                            <source src="./videos/pexels-pavel-danilyuk-8004705 (Original).mp4">
+                        </video>
+
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Samsung Galaxy SM-R170NZKAINU True Wireless Stereo (TWS) Earphones</h5>
+                        <p>New collections</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section><br>
+    <br>
+
+    <hr>
+
+
+    <section>
+        <h1 style="text-align: center;" class="m-5">BEST SELLERS</h1>
+        <section>
+<center>
+                <div class="row row-cols-1 row-cols-md-3 g-4 m-5" style="text-align: center;">
+                    <div class="col">
+                      <div class="card">
+                        <img src="./videos/pexels-garrett-morrow-1649771.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">APPLE</h5>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./videos/headphones-820341_1280.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">BEATS</h5>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./videos/headphones-3683983_1280.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">SENHEISER</h5>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./videos/headphones-3435885_1280.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">SONY</h5>
+
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="card">
+                          <img src="./videos/headphones-3021221_1280.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">BOSE</h5>
+
+                        </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card">
+                          <img src="./videos/headphones-1377194_1280.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">SONY</h5>
+
+                        </div>
+                        </div>
+                      </div>
+      
+                  </div>
+    
+</center>    
+    </section>
+
+
+        <h1 style="background-color:rgb(255, 229, 81); color: white;height:100px;font-family: Georgia, 'Times New Roman', Times, serif; font-size: 25px;" class="p-3 mt-5">LIKE IT ? PRE-ORDER AND GET A DISCOUNT</h1>
+
+<!-- cards -->
+<h3 style="font-weight: 500; padding: 25px; text-align: center; margin-top: 20px;">Why do you have to buy Headphones only from us?</h3>
+    <div class="card-container1 d-flex justify-content-center mt-3 mb-5">
+      <div class="card1" style="width: 21rem; text-align: center;">
+        <h1 style="font-size: 80px; font-weight: 700; color:rgb(255, 229, 81);">01</h1>
+        <div class="overlay1">
+          <p class="mt-3" style="font-size: 20px; font-weight: 800;">HIGH QUALITY</p>
+        </div>
+        <p style="padding-left: 10px; padding-right: 10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      </div>
+      <div class="card1" style="width: 21rem; text-align: center;">
+        <h1 style="font-size: 80px; font-weight: 700; color: rgb(255, 229, 81);">02</h1>
+        <div class="overlay1">
+          <p class="mt-3" style="font-size: 20px; font-weight: 800;">ORIGINAL DEVICE</p>
+        </div>
+        <p style="padding-left: 10px; padding-right: 10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      </div>
+      <div class="card1" style="width: 21rem; text-align: center;">
+        <h1 style="font-size: 80px; font-weight: 700; color:rgb(255, 229, 81);">03</h1>
+        <div class="overlay1">
+          <p class="mt-3" style="font-size: 20px; font-weight: 800;">YEAR WARRANTY</p>
+        </div>
+        <p style="padding-left: 10px; padding-right: 10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      </div>
+      <div class="card1" style="width: 21rem; text-align: center;">
+        <h1 style="font-size: 80px; font-weight: 700; color:rgb(255, 229, 81);">04</h1>
+        <div class="overlay1">
+          <p class="mt-3" style="font-size: 20px; font-weight: 800;">WEEK TO CHECK</p>
+        </div>
+        <p style="padding-left: 10px; padding-right: 10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      </div>
+    </div>
+
+    <!-- MAP -->
+
+    <h3 style="font-weight: 700; padding: 25px; text-align: center; margin-top: 20px;">Visit us and see yourself</h3>
+    <!--Google map-->
+    <div id="map-container-google-1" class="z-depth-1-half map-container">
+      <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"style="border:0" allowfullscreen></iframe>
+
+    </div>
+
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2020 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

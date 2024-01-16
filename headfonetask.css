@@ -1,0 +1,62 @@
+nav{
+    background-color: rgb(255, 229, 81);
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.dropdown-menu a {
+    color: rgb(86, 86, 86);
+    padding: 8px 12px;
+    display: block;
+    text-align: center;
+  }
+  .card1 {
+    position: relative;
+    text-align: center;
+  }
+
+  .overlay1 {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+
+.card-container1 {
+    display: flex;
+    gap: 5px;
+}
+.col:hover{
+    opacity: 1;
+}
+
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:35%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height: 450px;
+    width:100%;
+    position:absolute;
+  }
